@@ -1,0 +1,54 @@
+h1 {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+.Repositoryitem-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-view {
+  height: 300px;
+  width: 300px;
+}
+
+.search {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
